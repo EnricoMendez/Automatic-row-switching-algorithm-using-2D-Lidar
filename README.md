@@ -48,4 +48,24 @@ Run the <lidar_filter.launch> file, this will filter the lidar samples.
 
 Then run <left.py> or <right.py> node, this is the navigation algorithm each of those runs the program that turns to one side, the one on the name. 
 
-## Files descriptions  
+## Folders descriptions  
+
+### Launch 
+
+This folder contains the launch files of the package 
+
+### Scripts 
+
+This folder contains the ROS nodes. 
+
+### Config 
+
+This folder contains the rviz configurations needed as well as the lidar filter configuration. 
+
+### URDF  
+
+This folder contains some changes made to the jackal simulation. 
+
+### Worlds 
+
+This folder contains the gazeebo world used in the simulation. 
